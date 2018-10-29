@@ -24,7 +24,7 @@ module.exports = env => {
         entry: {
             "js/sample-project": globby.sync(
                 [
-                    resolve(`${plConfig.paths.source.css}scss/*.scss`),
+                    resolve(`${plConfig.paths.source.css}./*.scss`),
                     resolve(`${plConfig.paths.source.patterns}**/*.js`),
                     "!**/*.test.js"
                 ],
