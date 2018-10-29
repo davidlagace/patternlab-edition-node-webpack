@@ -61,3 +61,5 @@ typings/
 public
 events.json
 
+# IDE settings
+.idea
